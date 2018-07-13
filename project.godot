@@ -14,6 +14,10 @@ config/name="RedBull Quiz"
 run/main_scene="res://StartScreen.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+global="*res://global.gd"
+
 [display]
 
 window/size/width=1920

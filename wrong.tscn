@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://wrong.gd" type="Script" id=1]
 [ext_resource path="res://images/wrong.png" type="Texture" id=2]
 [ext_resource path="res://TimeOut.gd" type="Script" id=3]
+[ext_resource path="res://components/GUI.tscn" type="PackedScene" id=4]
 
 [node name="Control" type="Control" index="0"]
 
@@ -104,6 +105,8 @@ size_flags_vertical = 4
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+
+[node name="GUI" parent="." index="2" instance=ExtResource( 4 )]
 
 [connection signal="timeout" from="Timer" to="Timer" method="_on_Timer_timeout"]
 

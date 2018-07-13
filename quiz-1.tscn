@@ -1,6 +1,23 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Control.gd" type="Script" id=1]
+[ext_resource path="res://fonts/paytone/PaytoneOne-Regular.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 48
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 2 )
+_sections_unfolded = [ "Font", "Settings" ]
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 36
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 2 )
+_sections_unfolded = [ "Font", "Settings" ]
 
 [node name="Control" type="Control" index="0"]
 
@@ -40,10 +57,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 883.0
-margin_top = 502.0
-margin_right = 1042.0
-margin_bottom = 570.0
+margin_left = 676.0
+margin_top = 418.0
+margin_right = 1249.0
+margin_bottom = 654.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 1
@@ -58,8 +75,8 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 68.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -74,8 +91,8 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 8.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 68.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -91,20 +108,21 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 8.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 68.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 0.972549, 0.933333, 0.247059, 1 )
 text = "What does Red Bull do?"
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "custom_colors" ]
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
 
 [node name="Answer-1" type="MarginContainer" parent="CenterContainer/VBoxContainer" index="1"]
 
@@ -112,9 +130,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 18.0
-margin_right = 159.0
-margin_bottom = 32.0
+margin_top = 72.0
+margin_right = 573.0
+margin_bottom = 124.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -129,8 +147,8 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 8.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 52.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -139,27 +157,44 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 color = Color( 0.972549, 0.933333, 0.247059, 1 )
 
-[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/Answer-1" index="1"]
+[node name="MarginContainer" type="MarginContainer" parent="CenterContainer/VBoxContainer/Answer-1" index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 8.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 52.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/Answer-1/MarginContainer" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 8.0
+margin_right = 565.0
+margin_bottom = 52.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0.694118, 1 )
 text = "1. It gives you feet"
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "custom_colors" ]
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
 
 [node name="Answer-2" type="MarginContainer" parent="CenterContainer/VBoxContainer" index="2"]
 
@@ -167,9 +202,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 36.0
-margin_right = 159.0
-margin_bottom = 50.0
+margin_top = 128.0
+margin_right = 573.0
+margin_bottom = 180.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -184,8 +219,8 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 8.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 52.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -194,27 +229,44 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 color = Color( 0.972549, 0.933333, 0.247059, 1 )
 
-[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/Answer-2" index="1"]
+[node name="MarginContainer" type="MarginContainer" parent="CenterContainer/VBoxContainer/Answer-2" index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 8.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 52.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/Answer-2/MarginContainer" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 8.0
+margin_right = 565.0
+margin_bottom = 52.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0.694118, 1 )
 text = "2. It gives you ears"
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "custom_colors" ]
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
 
 [node name="Answer-3" type="MarginContainer" parent="CenterContainer/VBoxContainer" index="3"]
 
@@ -222,9 +274,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 54.0
-margin_right = 159.0
-margin_bottom = 68.0
+margin_top = 184.0
+margin_right = 573.0
+margin_bottom = 236.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -239,8 +291,8 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 8.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 52.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -249,26 +301,43 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 color = Color( 0.972549, 0.933333, 0.247059, 1 )
 
-[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/Answer-3" index="1"]
+[node name="MarginContainer" type="MarginContainer" parent="CenterContainer/VBoxContainer/Answer-3" index="1"]
 
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 8.0
-margin_right = 159.0
-margin_bottom = 14.0
+margin_right = 573.0
+margin_bottom = 52.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/Answer-3/MarginContainer" index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 8.0
+margin_right = 565.0
+margin_bottom = 52.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0.694118, 1 )
 text = "3. It gives you wings"
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "custom_colors" ]
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
 
 

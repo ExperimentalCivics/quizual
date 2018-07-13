@@ -30,8 +30,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="286.99031"
-     inkscape:cy="253.81235"
+     inkscape:cx="1106.9903"
+     inkscape:cy="93.81235"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,7 +62,7 @@
      inkscape:label="Start"
      transform="translate(241.17575,-518.82526)">
     <rect
-       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:14.70726395;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:660;stroke-opacity:1;paint-order:markers stroke fill"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#cc2729;stroke-width:14.70726395;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:660;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect893"
        width="487.7525"
        height="122.97057"
@@ -70,14 +70,14 @@
        y="526.17889" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:97.66751862px;line-height:12.71712494px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.50868499px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:97.66751862px;line-height:12.71712494px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cc2729;fill-opacity:1;stroke:none;stroke-width:0.50868499px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="-212.33075"
        y="621.76062"
        id="text897"><tspan
          sodipodi:role="line"
          x="-212.33075"
          y="621.76062"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.50868499px"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#cc2729;fill-opacity:1;stroke:none;stroke-width:0.50868499px;"
          id="tspan899">Correct!</tspan></text>
   </g>
 </svg>

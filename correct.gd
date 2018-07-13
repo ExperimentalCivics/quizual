@@ -1,6 +1,7 @@
 extends Control
 
 func _ready():
+	$GUI/CenterContainer/VBoxContainer/Score.adjust(1)
 	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
 
 func _input(event):
