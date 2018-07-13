@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="502.45978mm"
+   height="137.67784mm"
+   viewBox="0 0 502.45979 137.67784"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="correct.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   style="enable-background:new"
+   inkscape:export-filename="/home/thoth/redbull-quiz/images/correct.png"
+   inkscape:export-xdpi="37.266716"
+   inkscape:export-ydpi="37.266716">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="286.99031"
+     inkscape:cy="253.81235"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Start"
+     transform="translate(241.17575,-518.82526)">
+    <rect
+       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:#ff0000;stroke-width:14.70726395;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:660;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect893"
+       width="487.7525"
+       height="122.97057"
+       x="-233.82211"
+       y="526.17889" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:97.66751862px;line-height:12.71712494px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.50868499px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-212.33075"
+       y="621.76062"
+       id="text897"><tspan
+         sodipodi:role="line"
+         x="-212.33075"
+         y="621.76062"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.50868499px"
+         id="tspan899">Correct!</tspan></text>
+  </g>
+</svg>
