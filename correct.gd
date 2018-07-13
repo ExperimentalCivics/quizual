@@ -10,3 +10,5 @@ func _input(event):
 		get_tree().change_scene("res://StartScreen.tscn")
 	if event.is_action_pressed('button_3'):
 		get_tree().change_scene("res://StartScreen.tscn")
+	if event.is_action_pressed('button_enter'):
+		get_tree().change_scene("res://StartScreen.tscn")
