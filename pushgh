@@ -1,0 +1,14 @@
+#!/bin/bash
+set -eux
+TMP=$(mktemp -d)
+
+godot --export "HTML5" $TMP/index.html
+
+cp -a .git $TMP/
+cd $TMP
+
+git checkout -b gh-pages
+git add .
+git commit -am gh-pages
+git push origin -f gh-pages
+rm -Rf $TMP
